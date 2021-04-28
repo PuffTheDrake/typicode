@@ -1,31 +1,49 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "Post 1"
-    },
-    {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+	"reference_name" : "Turku",
+	"most_similar": {
+		"name": "Vaasa",
+		"categories":[{
+			"category_1": [{
+				"name": "Mediaanitulo",
+				"value": 1873,
+				"reference_value" : 1823,
+				"unit": "€"
+			}],
+			"category_2": [{
+				"name":"Huoltosuhde",
+				"value": 0.44,
+				"reference_value": 0.5,
+				"unit": "%"
+			}],
+			"category_3": [{
+				"name":"Alkoholin kulutus (Jaloviinaksi muutettuna)",
+				"value": 10,
+				"reference_value": 25,
+				"unit": "l/hlö/a"
+			}]
+		}]
+	},
+	"least_similar" : {
+		"name": "Lestijärvi",
+		"categories":[{
+			"category_1": [{
+				"name":"Ala-ikä",
+				"value": 10,
+				"reference_value" : 50,
+				"unit": "vuotta"
+			}],
+			"category_2": [{
+				"name":"Keski-ikä",
+				"value": 60,
+				"reference_value" : 50,
+				"unit": "vuotta"
+			}],
+			"category_3": [{
+				"name":"Yli-ikä",
+				"value": 80,
+				"reference_value" : 50,
+				"unit": "vuotta"
+			}]
+		}]
+	}
 }
