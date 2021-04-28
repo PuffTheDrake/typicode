@@ -2,26 +2,26 @@
 	"reference_name" : "Turku",
 	"most_similar": {
 		"name": "Vaasa",
-		"categories":[{
-			"category_1": [{
+		"categories":{
+			"category_1": {
 				"name": "Mediaanitulo",
 				"value": 1873,
 				"reference_value" : 1823,
 				"unit": "€"
-			}],
-			"category_2": [{
+			},
+			"category_2": {
 				"name":"Huoltosuhde",
 				"value": 0.44,
 				"reference_value": 0.5,
 				"unit": "%"
-			}],
-			"category_3": [{
+			},
+			"category_3": {
 				"name":"Alkoholin kulutus (Jaloviinaksi muutettuna)",
 				"value": 10,
 				"reference_value": 25,
 				"unit": "l/hlö/a"
-			}]
-		}]
+			}
+		}
 	},
 	"least_similar" : {
 		"name": "Lestijärvi",
